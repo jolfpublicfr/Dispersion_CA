@@ -1,0 +1,66 @@
+@import (less) "node_modules/bootstrap/dist/css/bootstrap-grid.css";
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    em {
+        background: yellow;
+        padding: 5px;
+        
+    }
+}
+
+.bar {
+    fill: steelblue;
+  }
+  
+  .bar:hover {
+    fill: brown;
+  }
+  
+  .axis {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .x.axis path {
+    display: none;
+  }
+  
+  // add the following in addition to the CSS provided
+  
+  .y.axis path {
+    display: none;
+  }
+
+  .outer-wrapper {
+    width: 100%;
+  }
+  
+  h1 {
+    font-family: helvetica, sans-serif;
+    margin-left: 50px;
+  }
+  
+  /* SVG axes
+  ----------------------------------*/
+  .axis {
+    path, line {
+      fill: none;
+      stroke: #666;
+      shape-rendering: crispEdges;
+    }
+  
+    text {
+      font-family: sans-serif;
+      fill: #666;
+      font-size: 13px;
+      shape-rendering: crispEdges;
+    }
+  }

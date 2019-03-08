@@ -1,0 +1,28 @@
+{
+  "visual": {
+    "name": "Dispersion_CA",
+    "displayName": "Dispersion_CA",
+    "guid": "Dispersion_CAEx287858FF057145A9B12089930B3B2D2B",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "Le composant de dispersion de valeurs permet de filtrer un ensemble de données basé sur la dispersion en faisant directement glisser ou en balayant l'intervalle de valeurs souhaité. L’affichage initial est un aperçu utile indiquant la fréquence des éléments dans chaque compartiment de valeurs prédéfinies sous la forme d’un diagramme à barres verticales. En sélectionnant un intervalle de valeurs, tous les visuels liés sont automatiquement filtrés pour afficher uniquement les enregistrements avec des attributs dans l'intervalle sélectionné.",
+    "supportUrl": "",
+    "gitHubUrl": "https://github.com/jolfpublicfr/Dispersion_CA.git"
+  },
+  "apiVersion": "1.6.0",
+  "author": {
+    "name": "Yellowsys",
+    "email": "ajebabli@yellowsys.fr"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+    "node_modules/d3/d3.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
